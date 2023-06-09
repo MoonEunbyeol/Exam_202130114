@@ -1,7 +1,10 @@
-package com.example.ch16.config.security;
+package com.example.exam_202130114.config.security;
 
-import com.example.ch16.service.UserDetailService;
-import io.jsonwebtoken.*;
+import com.example.exam_202130114.service.UserDetailService;
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.Jws;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

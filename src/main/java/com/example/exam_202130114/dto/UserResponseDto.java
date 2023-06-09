@@ -1,6 +1,7 @@
-package com.example.ch14_test.dto;
+package com.example.exam_202130114.dto;
 
-import com.example.ch14_test.entity.User;
+
+import com.example.exam_202130114.entity.User;
 
 public class UserResponseDto {
 

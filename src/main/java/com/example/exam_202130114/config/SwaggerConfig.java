@@ -1,4 +1,4 @@
-package com.example.ch16.config;
+package com.example.exam_202130114.config;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -20,7 +20,7 @@ public class SwaggerConfig {
         SecurityRequirement securityRequirement = new SecurityRequirement().addList(JWT);
 
         Info info = new Info().version("v1.0.0")
-                .title("CH16 API").description("Spring Security Project");
+                .title("Spring 기말고사 API").description("Spring Exam Project");
         return new OpenAPI()
                 .info(info)
                 .components(components)

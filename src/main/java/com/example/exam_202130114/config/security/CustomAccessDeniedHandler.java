@@ -1,4 +1,4 @@
-package com.example.ch16.config.security;
+package com.example.exam_202130114.config.security;
 
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.access.AccessDeniedHandler;

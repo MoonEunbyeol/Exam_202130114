@@ -1,12 +1,11 @@
-package com.example.ch14_test.service;
+package com.example.exam_202130114.service;
 
-import com.example.ch14_test.dto.UserDto;
-import com.example.ch14_test.dto.UserResponseDto;
+import com.example.exam_202130114.dto.UserResponseDto;
+
+import java.util.List;
 
 public interface UserService {
 
-    UserResponseDto getUser(Long id);
-    UserResponseDto saveUser(UserDto userDto);
-    UserResponseDto changeUserName(Long id, String name) throws Exception;
-    void deleteUser(Long id) throws Exception;
+    List<UserResponseDto> listAll();
+    List<UserResponseDto> listOrderByName();
 }

@@ -1,8 +1,7 @@
-package com.example.ch16.config.security;
+package com.example.exam_202130114.config.security;
 
-import com.example.ch16.dto.EntryPointErrorResponse;
+import com.example.exam_202130114.dto.EntryPointErrorResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import net.bytebuddy.build.EntryPoint;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 

@@ -1,7 +1,7 @@
-package com.example.ch16.service;
+package com.example.exam_202130114.service;
 
-import com.example.ch16.dto.SignInResultDto;
-import com.example.ch16.dto.SignUpResultDto;
+import com.example.exam_202130114.dto.SignInResultDto;
+import com.example.exam_202130114.dto.SignUpResultDto;
 
 public interface SignService {
 

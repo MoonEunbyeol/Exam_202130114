@@ -1,4 +1,4 @@
-package com.example.ch16.config;
+package com.example.exam_202130114.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

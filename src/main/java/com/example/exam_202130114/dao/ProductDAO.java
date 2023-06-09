@@ -1,33 +1,18 @@
-package com.example.ch14.dao;
+package com.example.exam_202130114.dao;
 
-import com.example.ch14.entity.Product;
+import com.example.exam_202130114.entity.Product;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface ProductDAO {
 
     Product insertProduct(Product product);
-
-    Product selectProduct(Long number);
-
-    List<Product> selectProductByName(String name);
-
-    Product selectProductByNameAndPrice(String name, int price);
-
-    Long countByPrice(int price);
-
-    boolean existsByNumber(Long number);
-
-    List<Product> listProductByName(String name);
-
-    List<Product> listAll(); // 교수님은 listProduct로 진행
-
-    List<Product> allProduct();
-
-    List<Product> listByStock(int stock);
-
-    Product updateProductName(Long number, String name) throws Exception;
-
+    Product updateProduct(Long number, String name, int price, int stock) throws Exception;
     void deleteProduct(Long number) throws Exception;
 
+    List<Product> listAll();
+    List<Product> listOrderByPrice();
+    List<Product> listProductByName(String name);
+    Product selectProductByNumber(Long number);
 }

@@ -1,12 +1,12 @@
-package com.example.ch16.service.impl;
+package com.example.exam_202130114.service.impl;
 
-import com.example.ch16.config.security.JwtTokenProvider;
-import com.example.ch16.dto.CommonResponse;
-import com.example.ch16.dto.SignInResultDto;
-import com.example.ch16.dto.SignUpResultDto;
-import com.example.ch16.entity.User;
-import com.example.ch16.repository.UserRepository;
-import com.example.ch16.service.SignService;
+import com.example.exam_202130114.config.security.JwtTokenProvider;
+import com.example.exam_202130114.dto.CommonResponse;
+import com.example.exam_202130114.dto.SignInResultDto;
+import com.example.exam_202130114.dto.SignUpResultDto;
+import com.example.exam_202130114.entity.User;
+import com.example.exam_202130114.repository.UserRepository;
+import com.example.exam_202130114.service.SignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

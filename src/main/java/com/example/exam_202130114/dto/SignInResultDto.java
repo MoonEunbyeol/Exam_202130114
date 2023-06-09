@@ -1,4 +1,4 @@
-package com.example.ch16.dto;
+package com.example.exam_202130114.dto;
 
 import lombok.*;
 

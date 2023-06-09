@@ -1,8 +1,8 @@
-package com.example.ch16.controller;
+package com.example.exam_202130114.controller;
 
-import com.example.ch16.dto.SignInResultDto;
-import com.example.ch16.dto.SignUpResultDto;
-import com.example.ch16.service.SignService;
+import com.example.exam_202130114.dto.SignInResultDto;
+import com.example.exam_202130114.dto.SignUpResultDto;
+import com.example.exam_202130114.service.SignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
