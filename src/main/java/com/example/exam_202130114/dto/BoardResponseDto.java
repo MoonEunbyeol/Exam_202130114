@@ -21,5 +21,7 @@ public class BoardResponseDto {
         this.id = board.getId();
         this.title = board.getTitle();
         this.contents = board.getContents();
+        this.userId = board.getUserId();
+        this.userName = board.getUserName();
     }
 }
