@@ -32,7 +32,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll()
 //                .antMatchers(HttpMethod.GET, "/product/**").permitAll()
                 .antMatchers(HttpMethod.GET, "/user/**").permitAll() // /user로 들어온 모든 경로를 권한 허용해줌
-                .anyRequest().hasAnyRole("USER", "ADMIN")
+//                .anyRequest().hasAnyRole("USER", "ADMIN")
                 .and()
                 .exceptionHandling().accessDeniedHandler(new CustomAccessDeniedHandler())
                 .and()

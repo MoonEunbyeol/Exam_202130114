@@ -22,7 +22,7 @@ public class OrderController {
 
     @PostMapping()
     @PreAuthorize("hasRole('ROLE_USER')")
-    public ResponseEntity<OrderResponseDto> insertOrder(@RequestBody OrderDto orderDto) {
+    public ResponseEntity<OrderResponseDto> insertOrder(@RequestBody OrderDto orderDto) throws Exception{
         OrderResponseDto orderResponseDto = orderService.insertOrder(orderDto);
         return ResponseEntity.status(HttpStatus.OK).body(orderResponseDto);
     }

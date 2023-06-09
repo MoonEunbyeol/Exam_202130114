@@ -20,7 +20,7 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    public OrderResponseDto insertOrder(OrderDto orderDto) {
+    public OrderResponseDto insertOrder(OrderDto orderDto) throws Exception{
         Order order = new Order();
         order.setProductId(orderDto.getProductId());
         order.setProductName(orderDto.getProductName());
